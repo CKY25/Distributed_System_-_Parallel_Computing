@@ -1,0 +1,100 @@
+﻿  Compiling CUDA source file HaarWavelet.cu...
+  
+  C:\Users\User\source\repos\DSPC_Assignment\DSPC_Assignment>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64" -x cu   -I"C:\Program Files (x86)\Microsoft SDKs\MPI\Include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\include"  -G   --keep-dir x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -o C:\Users\User\source\repos\DSPC_Assignment\DSPC_Assignment\x64\Debug\HaarWavelet.cu.obj "C:\Users\User\source\repos\DSPC_Assignment\DSPC_Assignment\HaarWavelet.cu" 
+C:\Users\User\source\repos\DSPC_Assignment\opencv\build\include\opencv2/stitching/detail/warpers.hpp(235): warning #611-D: overloaded virtual function "cv::detail::PlaneWarper::buildMaps" is only partially overridden in class "cv::detail::AffineWarper"
+    class  AffineWarper : public PlaneWarper
+           ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+C:\Users\User\source\repos\DSPC_Assignment\opencv\build\include\opencv2/stitching/detail/warpers.hpp(235): warning #611-D: overloaded virtual function "cv::detail::PlaneWarper::warp" is only partially overridden in class "cv::detail::AffineWarper"
+    class  AffineWarper : public PlaneWarper
+           ^
+  
+C:\Users\User\source\repos\DSPC_Assignment\opencv\build\include\opencv2/stitching/detail/matchers.hpp(182): warning #611-D: overloaded virtual function "cv::detail::FeaturesMatcher::match" is only partially overridden in class "cv::detail::BestOf2NearestMatcher"
+    class  BestOf2NearestMatcher : public FeaturesMatcher
+           ^
+  
+C:\Users\User\source\repos\DSPC_Assignment\opencv\build\include\opencv2/stitching/detail/matchers.hpp(236): warning #611-D: overloaded virtual function "cv::detail::FeaturesMatcher::match" is only partially overridden in class "cv::detail::AffineBestOf2NearestMatcher"
+    class  AffineBestOf2NearestMatcher : public BestOf2NearestMatcher
+           ^
+  
+C:\Users\User\source\repos\DSPC_Assignment\opencv\build\include\opencv2/stitching/detail/blenders.hpp(100): warning #611-D: overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::FeatherBlender"
+    class  FeatherBlender : public Blender
+           ^
+  
+C:\Users\User\source\repos\DSPC_Assignment\opencv\build\include\opencv2/stitching/detail/blenders.hpp(127): warning #611-D: overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::MultiBandBlender"
+    class  MultiBandBlender : public Blender
+           ^
+  
+C:\Users\User\source\repos\DSPC_Assignment\opencv\build\include\opencv2/stitching/detail/warpers.hpp(235): warning #611-D: overloaded virtual function "cv::detail::PlaneWarper::buildMaps" is only partially overridden in class "cv::detail::AffineWarper"
+    class  AffineWarper : public PlaneWarper
+           ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+C:\Users\User\source\repos\DSPC_Assignment\opencv\build\include\opencv2/stitching/detail/warpers.hpp(235): warning #611-D: overloaded virtual function "cv::detail::PlaneWarper::warp" is only partially overridden in class "cv::detail::AffineWarper"
+    class  AffineWarper : public PlaneWarper
+           ^
+  
+C:\Users\User\source\repos\DSPC_Assignment\opencv\build\include\opencv2/stitching/detail/matchers.hpp(182): warning #611-D: overloaded virtual function "cv::detail::FeaturesMatcher::match" is only partially overridden in class "cv::detail::BestOf2NearestMatcher"
+    class  BestOf2NearestMatcher : public FeaturesMatcher
+           ^
+  
+C:\Users\User\source\repos\DSPC_Assignment\opencv\build\include\opencv2/stitching/detail/matchers.hpp(236): warning #611-D: overloaded virtual function "cv::detail::FeaturesMatcher::match" is only partially overridden in class "cv::detail::AffineBestOf2NearestMatcher"
+    class  AffineBestOf2NearestMatcher : public BestOf2NearestMatcher
+           ^
+  
+C:\Users\User\source\repos\DSPC_Assignment\opencv\build\include\opencv2/stitching/detail/blenders.hpp(100): warning #611-D: overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::FeatherBlender"
+    class  FeatherBlender : public Blender
+           ^
+  
+C:\Users\User\source\repos\DSPC_Assignment\opencv\build\include\opencv2/stitching/detail/blenders.hpp(127): warning #611-D: overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::MultiBandBlender"
+    class  MultiBandBlender : public Blender
+           ^
+  
+  cl_version.h: CL_TARGET_OPENCL_VERSION is not defined. Defaulting to 300 (OpenCL 3.0)
+  HaarWavelet.cu
+  tmpxft_00000620_00000000-7_HaarWavelet.cudafe1.cpp
+  cl_version.h: CL_TARGET_OPENCL_VERSION is not defined. Defaulting to 300 (OpenCL 3.0)
+cl : command line  warning D9025: overriding '/openmp' with '/openmp:experimental'
+  DSPC_Assignment.cpp
+  cl_version.h: CL_TARGET_OPENCL_VERSION is not defined. Defaulting to 300 (OpenCL 3.0)
+C:\Users\User\source\repos\DSPC_Assignment\DSPC_Assignment\DSPC_Assignment.cpp(183,58): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\User\source\repos\DSPC_Assignment\DSPC_Assignment\DSPC_Assignment.cpp(183,35): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\User\source\repos\DSPC_Assignment\DSPC_Assignment\DSPC_Assignment.cpp(259,18): warning C4305: '=': truncation from 'int' to 'float'
+C:\Users\User\source\repos\DSPC_Assignment\DSPC_Assignment\DSPC_Assignment.cpp(271,27): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\User\source\repos\DSPC_Assignment\DSPC_Assignment\DSPC_Assignment.cpp(284,18): warning C4305: '=': truncation from 'int' to 'float'
+C:\Users\User\source\repos\DSPC_Assignment\DSPC_Assignment\DSPC_Assignment.cpp(291,33): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\User\source\repos\DSPC_Assignment\DSPC_Assignment\DSPC_Assignment.cpp(292,33): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\User\source\repos\DSPC_Assignment\DSPC_Assignment\DSPC_Assignment.cpp(309,22): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\User\source\repos\DSPC_Assignment\DSPC_Assignment\DSPC_Assignment.cpp(478,13): warning C4849: OpenMP 'collapse' clause ignored in 'parallel for' directive
+C:\Users\User\source\repos\DSPC_Assignment\DSPC_Assignment\DSPC_Assignment.cpp(503,13): warning C4849: OpenMP 'collapse' clause ignored in 'parallel for' directive
+C:\Users\User\source\repos\DSPC_Assignment\DSPC_Assignment\DSPC_Assignment.cpp(533,28): warning C4849: OpenMP 'reduction' clause ignored in 'simd' directive
+C:\Users\User\source\repos\DSPC_Assignment\DSPC_Assignment\DSPC_Assignment.cpp(560,28): warning C4849: OpenMP 'reduction' clause ignored in 'simd' directive
+C:\Users\User\source\repos\DSPC_Assignment\DSPC_Assignment\DSPC_Assignment.cpp(681,45): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\User\source\repos\DSPC_Assignment\DSPC_Assignment\DSPC_Assignment.cpp(764,47): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\User\source\repos\DSPC_Assignment\DSPC_Assignment\DSPC_Assignment.cpp(792,62): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\User\source\repos\DSPC_Assignment\DSPC_Assignment\DSPC_Assignment.cpp(798,73): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\User\source\repos\DSPC_Assignment\DSPC_Assignment\DSPC_Assignment.cpp(799,12): warning C4244: 'initializing': conversion from '_Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\User\source\repos\DSPC_Assignment\DSPC_Assignment\DSPC_Assignment.cpp(839,2): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\User\source\repos\DSPC_Assignment\DSPC_Assignment\DSPC_Assignment.cpp(849,2): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\User\source\repos\DSPC_Assignment\DSPC_Assignment\DSPC_Assignment.cpp(895,22): warning C4244: 'initializing': conversion from 'unsigned __int64' to 'float', possible loss of data
+C:\Users\User\source\repos\DSPC_Assignment\DSPC_Assignment\DSPC_Assignment.cpp(1004,2): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\User\source\repos\DSPC_Assignment\DSPC_Assignment\DSPC_Assignment.cpp(1016,2): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\User\source\repos\DSPC_Assignment\DSPC_Assignment\DSPC_Assignment.cpp(1092,22): warning C4244: 'initializing': conversion from 'unsigned __int64' to 'float', possible loss of data
+C:\Users\User\source\repos\DSPC_Assignment\DSPC_Assignment\DSPC_Assignment.cpp(1285,2): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\User\source\repos\DSPC_Assignment\DSPC_Assignment\DSPC_Assignment.cpp(1295,2): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\User\source\repos\DSPC_Assignment\DSPC_Assignment\DSPC_Assignment.cpp(1336,22): warning C4244: 'initializing': conversion from 'unsigned __int64' to 'float', possible loss of data
+C:\Users\User\source\repos\DSPC_Assignment\DSPC_Assignment\DSPC_Assignment.cpp(1190,10): warning C4996: 'clCreateCommandQueue': was declared deprecated
+C:\Users\User\source\repos\DSPC_Assignment\DSPC_Assignment\DSPC_Assignment.cpp(1436,2): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\User\source\repos\DSPC_Assignment\DSPC_Assignment\DSPC_Assignment.cpp(1446,2): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\User\source\repos\DSPC_Assignment\DSPC_Assignment\DSPC_Assignment.cpp(1492,22): warning C4244: 'initializing': conversion from 'unsigned __int64' to 'float', possible loss of data
+C:\Users\User\source\repos\DSPC_Assignment\DSPC_Assignment\DSPC_Assignment.cpp(1578,24): warning C4101: 'mpi': unreferenced local variable
+     Creating library C:\Users\User\source\repos\DSPC_Assignment\x64\Debug\DSPC_Assignment.lib and object C:\Users\User\source\repos\DSPC_Assignment\x64\Debug\DSPC_Assignment.exp
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  DSPC_Assignment.vcxproj -> C:\Users\User\source\repos\DSPC_Assignment\x64\Debug\DSPC_Assignment.exe
