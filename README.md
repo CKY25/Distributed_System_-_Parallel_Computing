@@ -8,4 +8,6 @@ Steps to configure the project:
 4. Go to DSPC_Assignment\x64\Debug and paste opencv_world4100d.dll into that folder.
 5. Then you should be able to execute the DSPC_Assignment.exe.
 
+https://github.com/user-attachments/assets/3425dff4-262e-4c36-9756-a92f8f6e265f
+
 Enjoy and any suggestions are appreciated ;)
